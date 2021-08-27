@@ -5,7 +5,7 @@ In our project, we consider an industrial pump sensor network. The network consi
 
 </b>Modules</b><br>
 
-![mainmenu](/samples/iotproj.PNG)<br>
+![mainmenu](/samples/iotproj.png)<br>
 
 <b>Exploratory Data Analysis</b><br>
 

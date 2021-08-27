@@ -3,6 +3,13 @@ Detect anomalies in Industrial IoT Pump Sensor Network
 
 In our project, we consider an industrial pump sensor network. The network consists of multiple nodes of the same type. The main nodes in the network measures pressure of the water that is flowing through the pipes at different locations in which it is deployed. Other nodes collect auxiliary details such as location etc. A centralized controller also exists which can divert water as per requirement even in case breaches are detected through an alternate route. In case there is any failures of nodes that cannot be fixed, the controller will raise “broken” flag. Then it may go into “recovering” state before it becomes “normal”. 
 
+<b>Exploratory Data Analysis</b><br>
+
+![mainmenu](/samples/head.PNG)<br>
+
+Sensor timeseries plot example:
+
+![mainmenu](/samples/sensorplot.PNG)<br>
 
 <b>Node-Red Implementation</b><br>
 <ul>

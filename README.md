@@ -9,4 +9,13 @@ Detect anomalies in Industrial IoT Pump Sensor Network
 <li>Using MQTT or other nodes that allows for communication between client and server instances we can communicate the dataset to the server. </li>
 <li>The prediction node Anomaly_Detection imports the model generated from the python script and contains the serialized object of the anomaly detection model in a pickled model.</li> 
 <li>The predictions will be printed on the server side, or an additional MQTT node can be added to communicate back the results back to the client.</li>
-</ul>
+</ul><br>
+![mainmenu](/samples/nodered1.PNG)<br>
+
+The following is an alternate flow that demonstrates the capabilities of the machine learning package that allows us to train the model in node-red environment itself. In this case we have trained a decision tree classifier completely within node-red environment. Assesment and predictor nodes are available that allows us to see the results. 
+![mainmenu](/samples/nodered2.PNG)<br>
+
+Flow for generating a random record for testing (record is stored in CSV file which can be imported in node red and passed to predictor for testings):
+![mainmenu](/samples/nodered3.PNG)<br>
+
+

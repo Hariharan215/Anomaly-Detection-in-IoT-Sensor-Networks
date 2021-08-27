@@ -16,6 +16,7 @@ The following is an alternate flow that demonstrates the capabilities of the mac
 ![mainmenu](/samples/nodered2.PNG)<br>
 
 Flow for generating a random record for testing (record is stored in CSV file which can be imported in node red and passed to predictor for testings):
+
 ![mainmenu](/samples/nodered3.PNG)<br>
 
 
